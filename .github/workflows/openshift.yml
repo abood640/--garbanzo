@@ -104,7 +104,7 @@ jobs:
             core.info(`✅ All the required secrets are set`);
           }
 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Determine app name
       if: env.APP_NAME == ''
